@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore operational files containing local scratch paths
+files_to_upload.txt
+osf_remote_manifest.txt
+
+# Ignore Python cache profiles
+__pycache__/
+*.pyc
+
+# Ignore environment export logs or tokens
+.env
+*.log
+tmp/

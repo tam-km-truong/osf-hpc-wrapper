@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osf_hpc_wrapper"
+version = "0.0.1"
+description = "A python wrapper to sync stream fof file to an OSF project, on HPC clusters."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "osfclient>=0.0.5"
+]
+
+[project.scripts]
+osf-sync = "osf_hpc_wrapper.sync:main"
