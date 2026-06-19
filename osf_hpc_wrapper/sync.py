@@ -8,9 +8,6 @@ from pathlib import Path
 from osfclient.api import OSF
 import configparser
 
-CONFIG_FILE_NAME = ".osf_exp_config.json"
-
-
 def parse_arguments():
     """Parse command-line arguments (-i required, -d, -f, -u)."""
     parser = argparse.ArgumentParser(
