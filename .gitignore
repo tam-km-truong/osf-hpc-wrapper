@@ -229,3 +229,5 @@ __pycache__/
 .env
 *.log
 tmp/
+.osfcli.config
+.vscode/settings.json
